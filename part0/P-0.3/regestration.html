@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regestration page</title>
+    <style>
+        body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#feb236;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #b2ad7f;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: #3e4444;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#submit{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: center;
+    background-color: grey;
+}
+a {
+  color: dodgerblue;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 1px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+    </style>
+</head>
+<body>
+<h2>Regestration Page</h2><br>
+    <div class="login">
+    <form id="login" method="POST" action="/registration/">
+        <label><b>EMAIL_ID
+        </b>
+        </label>
+        <input type="text"  name="email" placeholder="example@gmail.com">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="password" placeholder="Password">
+        <br><br>
+        <label><b>User_Name
+        </b>
+        </label>
+        <input type="text" name="uname" placeholder="user name">
+        <br><br>
+        <label><b>phone_Number
+        </b>
+        </label>
+        <input type="text" name="phno" placeholder="phonenumber">
+        <br><br>
+        <label><b>Address
+        </b>
+        </label>
+        <textarea name="address"  placeholder="address"></textarea>
+        <br><br>
+        <label><b>Branch
+        </b>
+        </label>
+        <input type="text" name="branch" placeholder="Branch">
+        <br><br>
+        <label><b>date_ofBirth
+        </b>
+        </label>
+        <input type="date" name="dob" placeholder="date of birth">
+        <br><br>
+       <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+
+    <button type="submit" class="registerbtn">Register</button>
+
+
+    </form>
+</div>
+</body>
+</html>
