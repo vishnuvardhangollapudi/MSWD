@@ -1,0 +1,19 @@
+.info {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.info, .error {
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.ul{
+   padding: 0
+}
